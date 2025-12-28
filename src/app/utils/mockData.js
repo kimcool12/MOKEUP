@@ -1,0 +1,42 @@
+export const flights = [
+    {
+        flightNumber: "AA123",
+        startTime: "08:00 AM",
+        endTime: "11:00 AM",
+        startLocation: "New York (JFK)",
+        endLocation: "London (LHR)",
+        timeZone: "EST",
+    },
+    {
+        flightNumber: "BA456",
+        startTime: "02:00 PM",
+        endTime: "08:00 PM",
+        startLocation: "London (LHR)",
+        endLocation: "New York (JFK)",
+        timeZone: "GMT",
+    },
+    {
+        flightNumber: "DL789",
+        startTime: "06:30 AM",
+        endTime: "09:45 AM",
+        startLocation: "Los Angeles (LAX)",
+        endLocation: "Tokyo (HND)",
+        timeZone: "PST",
+    },
+    {
+        flightNumber: "UA101",
+        startTime: "10:15 AM",
+        endTime: "01:30 PM",
+        startLocation: "Chicago (ORD)",
+        endLocation: "Paris (CDG)",
+        timeZone: "CST",
+    },
+    {
+        flightNumber: "QF001",
+        startTime: "11:55 PM",
+        endTime: "06:00 AM",
+        startLocation: "Sydney (SYD)",
+        endLocation: "London (LHR)",
+        timeZone: "AEST",
+    },
+];
